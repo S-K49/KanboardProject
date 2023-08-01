@@ -9,8 +9,8 @@ import ui.steps.LoginPage;
 
 public class LoginTests extends BaseTest {
 
-    private static final String USERNAME = "admin1";
-    private static final String PASSWORD = "admin1";
+    private static final String USERNAME = "admin";
+    private static final String PASSWORD = "admin";
 
     private static final String INVALID_CRED = "admin123";
 

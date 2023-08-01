@@ -25,7 +25,7 @@ public class UserApiSteps extends BaseApiSteps {
 
         Response response = postRequest(API_USERNAME, API_TOKEN, bodyArgs);
         response.then().statusCode(200);
-        Result result = response.as(new TypeRef<>() {});
+        Result result = response.as(Result.class);
         return result.getResult().toString();
     }
 
